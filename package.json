@@ -1,0 +1,47 @@
+{
+	"name": "latex",
+	"version": "0.0.2",
+	"displayName": "LaTeX Language Support",
+	"description": "LaTeX - colorizer, grammar and snippets.",
+	"publisher": "seanmcbreen",
+	"icon": "images/iconLaTeX.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Microsoft/vscode-spell-check.git"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "latex",
+				"aliases": [
+					"LaTeX",
+					"latex"
+				],
+				"extensions": [
+					".tex"
+				]
+			}
+		],
+		"snippets": [
+			{
+				"language": "latex",
+				"path": "./snippets/snippets.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "latex",
+				"scopeName": "text.tex.latex",
+				"path": "./syntaxes/latex.tmLanguage"
+			}
+		]
+	}
+}
