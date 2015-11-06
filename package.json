@@ -1,6 +1,6 @@
 {
 	"name": "latex",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"displayName": "LaTeX Language Support",
 	"description": "LaTeX - colorizer, grammar and snippets.",
 	"publisher": "seanmcbreen",
