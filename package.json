@@ -1,6 +1,6 @@
 {
 	"name": "latex",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"displayName": "LaTeX Language Support",
 	"description": "LaTeX - colorizer, grammar and snippets.",
 	"publisher": "seanmcbreen",
@@ -8,7 +8,7 @@
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-spell-check.git"
+		"url": "https://github.com/Microsoft/vscode-LaTeX.git"
 	},
 	"categories": [
 		"Languages",
