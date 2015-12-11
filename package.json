@@ -28,6 +28,19 @@
 				"extensions": [
 					".tex"
 				]
+			},
+			{
+				"id": "tex",
+				"aliases": [
+					"TeX",
+					"tex"
+				],
+				"extensions": [
+					".sty",
+					".cls",
+					".bbx",
+					".cbx"
+				]
 			}
 		],
 		"snippets": [
@@ -41,6 +54,11 @@
 				"language": "latex",
 				"scopeName": "text.tex.latex",
 				"path": "./syntaxes/latex.tmLanguage"
+			},
+			{
+				"language": "tex",
+				"scopeName": "text.tex",
+				"path": "./syntaxes/tex.tmLanguage"
 			}
 		]
 	}
