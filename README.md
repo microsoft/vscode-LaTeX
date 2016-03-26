@@ -5,6 +5,7 @@ An extension for [Visual Studio Code](https://code.visualstudio.com) that adds s
 - Syntax colorization
 - Bracket Matching
 - Snippets
+- Line comments
 
 
 Go from boring | To fun
