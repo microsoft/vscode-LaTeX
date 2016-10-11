@@ -27,7 +27,8 @@
 				],
 				"extensions": [
 					".tex"
-				]
+				],
+				"configuration": "./language-configuration.json"
 			},
 			{
 				"id": "tex",
