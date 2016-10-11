@@ -29,7 +29,6 @@ export function activate(context: vscode.ExtensionContext) {
         }
     });
 
-
     context.subscriptions.push(emphasizeSelection);
     context.subscriptions.push(boldifySelection);
 }
