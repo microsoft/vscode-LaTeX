@@ -27,7 +27,8 @@
 				],
 				"extensions": [
 					".tex"
-				]
+				],
+				"configuration": "./latex.configuration.json"
 			},
 			{
 				"id": "tex",
@@ -40,7 +41,8 @@
 					".cls",
 					".bbx",
 					".cbx"
-				]
+				],
+				"configuration": "./latex.configuration.json"
 			}
 		],
 		"snippets": [
