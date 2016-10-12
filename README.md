@@ -16,7 +16,7 @@ Go from boring | To fun
 
 # Release Notes
 
-## 0.1.2 Various tweeks and fixes
+## 0.1.3 Various tweeks and fixes
 - Added support for comment/uncomment (`ctrl+/` or `cmd+/`),
 - AutoClosingPairs,  
 - SurroundingPair,
