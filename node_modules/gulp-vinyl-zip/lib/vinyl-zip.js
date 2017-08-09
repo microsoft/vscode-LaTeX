@@ -1,0 +1,14 @@
+'use strict';
+
+var File = require('vinyl');
+var util = require('util');
+
+function ZipFile(file) {
+	File.call(this, file);
+	
+	this.symlink = file.symlink || null;
+}
+
+util.inherits(ZipFile, File);
+
+module.exports = ZipFile;

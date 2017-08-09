@@ -1,25 +1,24 @@
-# VSCode-LaTeX README
+# [DEPRECATED] VSCode-LaTeX README
 
-An extension for [Visual Studio Code](https://code.visualstudio.com) that adds basic support for LaTeX.  This extension is based on the [tmBunble for LaTeX](https://github.com/textmate/latex.tmbundle).
+## Better LaTeX support is available -  Time to Upgrade
 
-- Syntax colorization
-- Bracket Matching
-- Snippets
-- Comment/un-comment
-- AutoClosingPairs  
-- SurroundingPair
+**I recommend you [un-install this extension](https://code.visualstudio.com/docs/editor/extension-gallery#_manage-extensions)** and use one of the other options such as [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) in it's place. To highlight this to existing users upon activating the extension you will see a new warning message:  
+
+![Warning Message](images/DoesNotWork.png)
 
 
-Go from boring | To fun
----------------|--------
-![LaTeX Before](images/LaTeX-before.png)| ![LaTeX Before](images/LaTeX-after.png)
 
-# Release Notes
+## I want to keep using the extension - Stop Nagging Me
 
-## 0.1.3 Various tweeks and fixes
-- Added support for comment/uncomment (`ctrl+/` or `cmd+/`),
-- AutoClosingPairs,  
-- SurroundingPair,
-- Various fixes.
+If you choose to continue to use the extension, click `Don't Ask Again` in the warning message.  Which will create a setting in your VS Code User Settings to suppress the message from coming up again.  Delete that setting `"LaTeX.StopAsking": true` when you do finally uninstall the extension.
 
-Thanks for the pull requests [@GaaH](https://github.com/GaaH]), [@xaverh](https://github.com/xaverh), [@faustinoaq](https://github.com/faustinoaq), [@mwillsey](https://github.com/mwillsey)
+We plan to un-publish the extension at some point to prevent new users from finding it when searching for LaTeX support.  When this happens any local copy you have will continue to work.  There will also be a .VSIX file in the [extension repository](https://github.com/Microsoft/vscode-latex) should you want to get it and [load it into VS Code](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix).
+
+
+# Change Log
+
+## 1.0.0 
+Added guidance to un-install extension based on other better options existing.
+
+
+
