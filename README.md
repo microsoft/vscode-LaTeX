@@ -2,7 +2,7 @@
 
 ## Better LaTeX support is available -  Time to Upgrade
 
-**I recommend you [un-install this extension](https://code.visualstudio.com/docs/editor/extension-gallery#_manage-extensions)** and use one of the other options such as [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) in it's place. To highlight this to existing users upon activating the extension you will see a new warning message:  
+**I recommend you [un-install this extension](https://code.visualstudio.com/docs/editor/extension-gallery#_manage-extensions)** since it is no longer under development, and use one of the other options such as [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) in it's place. To highlight this to existing users upon activating the extension you will see a new warning message:  
 
 ![Warning Message](images/DoesNotWork.png)
 
